@@ -1,0 +1,15 @@
+.EMG_page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.TextSection{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
