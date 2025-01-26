@@ -1,20 +1,55 @@
 .footer-container{
+    font-family: 'Roboto';
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    height: 10rem;
+    justify-content: space-between;
+    height: 15rem;
     background-color: black;
+    color: white;
+    padding: 2rem;
 
 }
 
-.first-section{
+.icon-container{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-name{
+    padding-left: 1rem;
+    color: white;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    /* white-space: nowrap; */
+}
+.icon-container:hover .icon-name{
+    opacity: 1;
+    transform: translateX(0);
+}
+.Right-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 
 .icons{
-    margin: 1rem;
-    padding: 1rem;
+    font-size: 1.5rem;
 }
+
+.icons:hover .icon-name ,.facebook {
+    color: #4267B2; 
+}
+
+.icons:hover .icon-name , .whatsapp {
+    color: #25D366; 
+}
+
+.icons:hover .icon-name , .instagram {
+    color: #C13584; 
+}
+
