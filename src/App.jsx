@@ -5,10 +5,10 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Emergency from './Pages/Emergency'
-import Generalmedical from './Pages/Generalmedical'
 import ChannelDoctor from './Pages/ChannelDoctor'
 import MedicalInsuarance from './Pages/MedicalInsuarance'
 import Diagnostic from './Pages/Diagnostic'
+import Pharmacy from './Pages/Pharmacy'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +20,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/emergency" element={<Emergency/>}/>
-        <Route path="/generalmedical" element={<Generalmedical/>}/> 
+        <Route path="/pharmacy" element={<Pharmacy/>}/> 
         <Route path="/channeldoctor" element={<ChannelDoctor/>}/>
         <Route path="/medicalinsuarance" element={<MedicalInsuarance/>}/>
         <Route path="/diognostic" element={<Diagnostic/>}/>

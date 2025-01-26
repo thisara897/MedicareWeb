@@ -1,13 +1,19 @@
 .navbar{
-    background-color: aqua;
+    background-color: #B82132;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: black;
+    height: 4rem;
 }
 
 .logo{
     padding-left: 1rem;
+}
+
+.logo h1{
+    color: white;
 }
 
 .links{
@@ -15,11 +21,11 @@
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
-    background-color: bisque;
     width: 15rem;
     padding-right: 1rem;
 }
 
 .link {
     text-decoration: none;
+    color: white;
 }
